@@ -9,6 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def new
+    Student.new
   end
 
   def create
