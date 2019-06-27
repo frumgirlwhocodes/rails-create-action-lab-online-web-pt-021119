@@ -16,6 +16,8 @@ class StudentsController < ApplicationController
     @student=Student.new 
     @student.first_name=params[:first_name]
     
+  
+    
     redirect_to students_path(@student)
   end
 
